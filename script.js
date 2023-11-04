@@ -83,13 +83,9 @@
 
 // /////////////////////// 5 ////////////////////////
 
-// /** @type {HTMLInputElement} */
 // const operand1 = document.querySelector("#operand1");
-// /** @type {HTMLInputElement} */
 // const operand2 = document.querySelector("#operand2");
-// /** @type {HTMLSelectElement} */
 // const operator = document.querySelector("#operator");
-// /** @type {HTMLInputElement} */
 // const result = document.querySelector("#calcRes");
 // const equalityBtn = document.querySelector("#equalityBtn");
 
