@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <input type="text" value="salam" />
+      <button class="click-me-btn">Click me!</button>
+    </form>
+
+    <div id="result">
+      <p style="display: none; font-size: 2rem"></p>
+    </div>
+    <br /><br />
+    <hr />
+    <span class="plus-minus-btn">
+      <button id="minus-btn">-</button>
+      <p id="counter">0</p>
+      <button id="plus-btn">+</button>
+    </span>
+
+    <br /><br />
+    <hr />
+    <button id="textBtn">Show me the text</button>
+    <h2 id="text1">Hello World</h2>
+    <h2 id="text2">How are you?</h2>
+
+    <br /><br />
+    <hr />
+
+    <span>
+      <p id="digitalClock"></p>
+    </span>
+
+    <br /><br />
+    <hr />
+
+    <label>
+      <p>operand1</p>
+      <input type="number" id="operand1" />
+    </label>
+    <label>
+      <p>operator</p>
+      <select name="" id="operator">
+        <option value="+">addition</option>
+        <option value="-">subtraction</option>
+        <option value="*">multiplication</option>
+        <option value="/">divison</option>
+      </select>
+    </label>
+
+    <label>
+      <p>operand2</p>
+      <input type="number" id="operand2" />
+    </label>
+
+    <button id="equalityBtn">=</button>
+
+    <label>
+      <p>result</p>
+      <input type="number" id="calcRes" readonly />
+    </label>
+
+
+    <form id="calc">
+        <input name="operand1" type="number" placeholder="operand">
+        <select name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input name="operand2" type="number" placeholder="operand">
+        <button type="submit">=</button>
+
+        <input type="number"  id="calculationResult">
+    </form>
+
+    <!-- <input type="text"> -->
+    <!-- <div class="result"><p>helou</p></div> -->
+    <script src="script.js"></script>
+  </body>
+</html>

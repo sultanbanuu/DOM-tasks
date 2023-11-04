@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.plus-minus-btn {
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+#plus-btn, #minus-btn, #counter{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+#text2 {
+    display: none;
+}
+
+#result {
+    font-size: 2rem;
+}
+
+label {
+    display: inline-block;
+}
+
+label > p {
+    font-size: large;
+}
+
